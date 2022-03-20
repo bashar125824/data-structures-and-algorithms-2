@@ -2,6 +2,6 @@
 
 | Challenge      | Link |
 | ----------- | ----------- |
-| Array-reverse      | ![Link](/DataStructure/DataStructure/data-structure-console/array-reverse/WhiteBoard.jpg)       |
-| Array-Insert-Shift      | ![Link](/DataStructure/DataStructure/data-structure-console/array-insert-shift/UpdatedWhiteBoard.jpg)   |
-| Array-binary-search     | ![Link](/DataStructure/DataStructure/data-structure-console/array-binary-search/WhiteBoard3.jpg) |
+| Array-reverse      | [Link to Challenge 1](/DataStructure/DataStructure/data-structure-console/array-reverse)       |
+| Array-Insert-Shift      | [Link to Challenge 2](/DataStructure/DataStructure/data-structure-console/array-insert-shift)   |
+| Array-binary-search     | [Link to Challenge 3](/DataStructure/DataStructure/data-structure-console/array-binary-search) |
