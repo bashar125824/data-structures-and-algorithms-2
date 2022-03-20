@@ -7,7 +7,7 @@
 ## Whiteboard Process
 
 
-![IMG](/array-insert-shift/UpdatedWhiteBoard.jpg)
+![IMG](UpdatedWhiteBoard.jpg)
 
 ---
 
