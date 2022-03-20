@@ -7,7 +7,7 @@
 ## Whiteboard Process
 
 
-![IMG](/array-reverse/WhiteBoard.jpg)
+![IMG](WhiteBoard.jpg)
 
 ---
 
