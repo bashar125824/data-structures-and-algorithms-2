@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lenovo\\Desktop\\DataStructure\\DataStructure\\DataStructure.csproj": {}
+    "C:\\Users\\Lenovo\\Desktop\\VS projects\\DataStructure\\DataStructure\\DataStructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lenovo\\Desktop\\DataStructure\\DataStructure\\DataStructure.csproj": {
+    "C:\\Users\\Lenovo\\Desktop\\VS projects\\DataStructure\\DataStructure\\DataStructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\DataStructure\\DataStructure\\DataStructure.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\VS projects\\DataStructure\\DataStructure\\DataStructure.csproj",
         "projectName": "DataStructure",
-        "projectPath": "C:\\Users\\Lenovo\\Desktop\\DataStructure\\DataStructure\\DataStructure.csproj",
+        "projectPath": "C:\\Users\\Lenovo\\Desktop\\VS projects\\DataStructure\\DataStructure\\DataStructure.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\Desktop\\DataStructure\\DataStructure\\obj\\",
+        "outputPath": "C:\\Users\\Lenovo\\Desktop\\VS projects\\DataStructure\\DataStructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",

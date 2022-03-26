@@ -1,0 +1,16 @@
+C:\Users\Lenovo\Desktop\VS projects\DataStructure\DataStructure\obj\Debug\net5.0\DataStructure.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\VS projects\DataStructure\DataStructure\obj\Debug\net5.0\DataStructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Desktop\VS projects\DataStructure\DataStructure\obj\Debug\net5.0\DataStructure.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\VS projects\DataStructure\DataStructure\obj\Debug\net5.0\DataStructure.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\VS projects\DataStructure\DataStructure\obj\Debug\net5.0\DataStructure.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\VS projects\DataStructure\DataStructure\bin\Debug\net5.0\DataStructure.exe
+C:\Users\Lenovo\Desktop\VS projects\DataStructure\DataStructure\bin\Debug\net5.0\DataStructure.deps.json
+C:\Users\Lenovo\Desktop\VS projects\DataStructure\DataStructure\bin\Debug\net5.0\DataStructure.runtimeconfig.json
+C:\Users\Lenovo\Desktop\VS projects\DataStructure\DataStructure\bin\Debug\net5.0\DataStructure.runtimeconfig.dev.json
+C:\Users\Lenovo\Desktop\VS projects\DataStructure\DataStructure\bin\Debug\net5.0\DataStructure.dll
+C:\Users\Lenovo\Desktop\VS projects\DataStructure\DataStructure\bin\Debug\net5.0\ref\DataStructure.dll
+C:\Users\Lenovo\Desktop\VS projects\DataStructure\DataStructure\bin\Debug\net5.0\DataStructure.pdb
+C:\Users\Lenovo\Desktop\VS projects\DataStructure\DataStructure\obj\Debug\net5.0\DataStructure.dll
+C:\Users\Lenovo\Desktop\VS projects\DataStructure\DataStructure\obj\Debug\net5.0\ref\DataStructure.dll
+C:\Users\Lenovo\Desktop\VS projects\DataStructure\DataStructure\obj\Debug\net5.0\DataStructure.pdb
+C:\Users\Lenovo\Desktop\VS projects\DataStructure\DataStructure\obj\Debug\net5.0\DataStructure.genruntimeconfig.cache
