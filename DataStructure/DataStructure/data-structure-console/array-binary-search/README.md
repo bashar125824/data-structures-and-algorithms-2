@@ -7,7 +7,7 @@
 ## Whiteboard Process
 
 
-![IMG](WhiteBoard3.jpg)
+![IMG](/array-binary-search/WhiteBoard3.jpg)
 
 ---
 
