@@ -5,98 +5,103 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-
-    class Node
+namespace allCode
+{
+    public class Program
     {
-
-        internal int value;
-        internal Node next;
-        public Node(int value)
-        {
-            this.value = value;
-            this.next = null;
-        }
-
-
-    };
-    class linkedList
-    {
-
-        internal Node head;
-
-        internal void Insert(int new_data)
-        {
-            Node new_node = new Node(new_data);
-            new_node.next = head;
-            head = new_node;
-        }
-
-        internal bool Include(int new_data)
-        {
-        Node current = head; // Initialize current
-        while (current != null)
-        {
-            if (current.value == new_data)
-                return true; // data found
-            current = current.next;
-        }
-        return false; // data not found
-
-
-    }
-           
-      
-
-
-        internal void toString()
+        class Node
         {
 
-            Node tmp = head;
-            while (tmp != null)
+            internal int value;
+            internal Node next;
+            public Node(int value)
             {
-                Console.Write($"{tmp.value} -> ");
-           
-                tmp = tmp.next;
+                this.value = value;
+                this.next = null;
+            }
+
+
+        };
+        class linkedList
+        {
+
+            internal Node head;
+
+            internal void Insert(int new_data)
+            {
+                Node new_node = new Node(new_data);
+                new_node.next = head;
+                head = new_node;
+            }
+
+            internal bool Include(int new_data)
+            {
+                Node current = head; // Initialize current
+                while (current != null)
+                {
+                    if (current.value == new_data)
+                        return true; // data found
+                    current = current.next;
+                }
+                return false; // data not found
+
+
+            }
+
+
+
+
+            internal void toString()
+            {
+
+                Node tmp = head;
+                while (tmp != null)
+                {
+                    Console.Write($"{tmp.value} -> ");
+
+                    tmp = tmp.next;
+
+                }
+                Console.Write("NULL");
+
+            }
+
+        };
+       
+
+            static void Main(string[] args)
+            {
+                // Test 1
+                linkedList MyList = new linkedList();
+
+                // Test 2
+                MyList.Insert(100);
+
+                // Test 3
+                MyList.Insert(23);
+                MyList.Insert(223);
+                MyList.Insert(888);
+
+                // Test 4  , Should return Yes
+                if (MyList.Include(23))
+                    Console.WriteLine("Yes");
+                else
+                    Console.WriteLine("No");
+
+
+                // Test 5  , Should return No
+                if (MyList.Include(66))
+                    Console.WriteLine("Yes");
+                else
+                    Console.WriteLine("No");
+
+                // Test 6
+                MyList.toString();
+
 
             }
 
         }
+    }
 
-    };
-    class Program
-    {
-
-        static void Main(string[] args)
-        {
-            // Test 1
-            linkedList MyList = new linkedList();
-
-            // Test 2
-            MyList.Insert(100);
-
-            // Test 3
-            MyList.Insert(23);
-            MyList.Insert(223);
-            MyList.Insert(888);
-
-        // Test 4  , Should return Yes
-        if (MyList.Include(23))
-            Console.WriteLine("Yes");
-        else
-            Console.WriteLine("No");
-
-
-        // Test 5  , Should return No
-        if (MyList.Include(66))
-            Console.WriteLine("Yes");
-        else
-            Console.WriteLine("No");
-
-        // Test 6
-        MyList.toString();
-
-
-        }
-
-        }
 
