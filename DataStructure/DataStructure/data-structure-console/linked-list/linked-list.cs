@@ -69,7 +69,7 @@ namespace allCode
         };
        
 
-            static void Main(string[] args)
+            static void main(string[] args)
             {
                 // Test 1
                 linkedList MyList = new linkedList();
