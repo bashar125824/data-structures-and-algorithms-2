@@ -1,15 +1,23 @@
 using System;
 using Xunit;
-using allCode;
+using Insertoins;
 
-namespace TestProject1
+namespace Test
 {
-    public class UnitTest1
+    public class linked_list_insertions
     {
         [Fact]
         public void Test1()
         {
-                     
+            Insertoins.linked_list_insertions.linkedList l = new Insertoins.linked_list_insertions.linkedList();
+
+            Insertoins.linked_list_insertions.Node n = new Insertoins.linked_list_insertions.Node(55);
+
+            n.next = null;
+
+            Assert.Equal(n , l.append(55));
         }
+
+     
     }
 }
