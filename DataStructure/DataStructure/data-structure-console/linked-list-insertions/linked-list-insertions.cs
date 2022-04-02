@@ -28,12 +28,12 @@ namespace Insertoins
 
             public Node append(int new_data)
             {
-                // 1. Allocate the Node &
-                // 2. Put in the data
-                // 3. Set next as null 
+                // Allocate the Node &
+                // Put in the data
+                // Set next as null 
                 Node new_node = new Node(new_data);
 
-                // 4. If the Linked List is empty,
+                //  If the Linked List is empty,
                 //  then make the new node as head 
                 if (head == null)
                 {
@@ -41,16 +41,16 @@ namespace Insertoins
                     return head;
                 }
 
-                // 4. This new node is going to be
+                // This new node is going to be
                 // the last node, so make next of it as null 
                 new_node.next = null;
 
-                // 5. Else traverse till the last node 
+                //  Else traverse till the last node 
                 Node last = head;
                 while (last.next != null)
                     last = last.next;
 
-                // 6. Change the next of last node 
+                //  Change the next of last node 
                 last.next = new_node;
 
                 return last.next;
@@ -78,8 +78,8 @@ namespace Insertoins
                 Node nextNode = Include(specifiedValue);
 
                 // First check if the given
-                // pointer is the address of
-                // head
+                // value is in rhe head
+               
                 if (head == nextNode)
                 {
                     // Create a new node
@@ -138,7 +138,7 @@ namespace Insertoins
 
             }
         
-
+            // To print the linked list
             public void toString()
             {
 
@@ -153,7 +153,7 @@ namespace Insertoins
                 Console.Write("NULL");
 
             }
-            static void Main(string[] args)
+            static void main(string[] args)
             {
 
                 linkedList l = new linkedList();
