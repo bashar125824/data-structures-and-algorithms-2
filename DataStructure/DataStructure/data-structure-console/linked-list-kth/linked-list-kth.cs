@@ -47,7 +47,8 @@ namespace kth_test
 
                 temp = head;
 
-                // 2) get the (len-k+1)th node from the beginning
+                // 2) get the (len-n+1)th node from the beginning
+
                 for (int i = 1; i < len - k + 1; i++)
                     temp = temp.next;
 
@@ -68,7 +69,9 @@ namespace kth_test
                 head = new_node;
             }
 
-            public static void main(String[] args)
+
+            public static void Main(String[] args)
+
             {
                 LinkedList myList = new LinkedList();
                 myList.push(100);

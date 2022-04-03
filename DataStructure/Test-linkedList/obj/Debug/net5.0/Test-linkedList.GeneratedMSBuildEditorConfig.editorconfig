@@ -7,4 +7,12 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Test_linkedList
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\Lenovo\Desktop\VS projects\DataStructure\Test-linkedList\
+=======
+<<<<<<< HEAD
+build_property.ProjectDir = C:\Users\Lenovo\Desktop\VS projects\DataStructure\Test-linkedList\
+=======
+build_property.ProjectDir = \\wsl$\Ubuntu\home\bashar\data-structures-and-algorithms-2\DataStructure\Test-linkedList\
+>>>>>>> main
+>>>>>>> main

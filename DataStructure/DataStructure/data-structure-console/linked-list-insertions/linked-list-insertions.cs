@@ -26,7 +26,9 @@ namespace Insertoins
 
             internal Node head;
 
+
             public int append(int new_data)
+
             {
                 // Allocate the Node &
                 // Put in the data
@@ -39,6 +41,7 @@ namespace Insertoins
                 {
                     head = new Node(new_data);
                     return new_data;
+
                 }
 
                 // This new node is going to be
@@ -54,6 +57,7 @@ namespace Insertoins
                 last.next = new_node;
 
                 return last.value;
+
             }
 
             // I used 'Include' method that was implemented in previous challenge
@@ -73,6 +77,7 @@ namespace Insertoins
             }
 
             public int insertBefore(int specifiedValue, int new_data)
+
             {
                 // Store the result of 'Include' in a node
                 Node nextNode = Include(specifiedValue);
@@ -93,6 +98,7 @@ namespace Insertoins
                     head = n;
 
                     return new_data;
+
 
                 }
 
@@ -115,6 +121,7 @@ namespace Insertoins
                     p.next = m;
 
                     return new_data;
+
                 }
             }
 
@@ -138,6 +145,7 @@ namespace Insertoins
                 previousNode.next = new_node;
 
                 return new_data;
+
             }
         
             // To print the linked list
