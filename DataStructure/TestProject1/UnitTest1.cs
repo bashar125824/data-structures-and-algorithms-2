@@ -13,7 +13,6 @@ namespace Test
 
             Insertoins.linked_list_insertions.Node n = new Insertoins.linked_list_insertions.Node(55);
 
-
             Assert.Equal(55 , l.append(n.value));
         }
 
@@ -39,8 +38,6 @@ namespace Test
 
             Assert.Equal(22, l.insertAfter(89, n.value));
         }
-
-
 
     }
 }
