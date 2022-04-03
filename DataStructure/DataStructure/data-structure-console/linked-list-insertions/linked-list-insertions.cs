@@ -26,11 +26,9 @@ namespace Insertoins
 
             internal Node head;
 
-<<<<<<< HEAD
+
             public int append(int new_data)
-=======
-            public Node append(int new_data)
->>>>>>> main
+
             {
                 // Allocate the Node &
                 // Put in the data
@@ -42,11 +40,9 @@ namespace Insertoins
                 if (head == null)
                 {
                     head = new Node(new_data);
-<<<<<<< HEAD
-                    return new_data;
-=======
+
                     return head;
->>>>>>> main
+
                 }
 
                 // This new node is going to be
@@ -61,11 +57,9 @@ namespace Insertoins
                 //  Change the next of last node 
                 last.next = new_node;
 
-<<<<<<< HEAD
-                return last.value;
-=======
+
                 return last.next;
->>>>>>> main
+
             }
 
             // I used 'Include' method that was implemented in previous challenge
@@ -84,11 +78,9 @@ namespace Insertoins
                 return notFound;
             }
 
-<<<<<<< HEAD
+
             public int insertBefore(int specifiedValue, int new_data)
-=======
-            public void insertBefore(int specifiedValue, int new_data)
->>>>>>> main
+
             {
                 // Store the result of 'Include' in a node
                 Node nextNode = Include(specifiedValue);
@@ -108,11 +100,10 @@ namespace Insertoins
                     // Update the head pointer
                     head = n;
 
-<<<<<<< HEAD
+
                     return new_data;
 
-=======
->>>>>>> main
+
                 }
 
                 else
@@ -133,21 +124,16 @@ namespace Insertoins
                     // Update previous node's next
                     p.next = m;
 
-<<<<<<< HEAD
                     return new_data;
-=======
 
->>>>>>> main
                 }
             }
 
 
            
-<<<<<<< HEAD
+
             public int insertAfter(int specifiedValue, int new_data) {
-=======
-            public void insertAfter(int specifiedValue, int new_data) {
->>>>>>> main
+
 
                 // Store the result of 'Include' in a node
                 Node previousNode = Include(specifiedValue);
@@ -164,11 +150,9 @@ namespace Insertoins
                 // as new_node 
                 previousNode.next = new_node;
 
-<<<<<<< HEAD
-                return new_data;
-=======
 
->>>>>>> main
+                return new_data;
+
             }
         
             // To print the linked list
