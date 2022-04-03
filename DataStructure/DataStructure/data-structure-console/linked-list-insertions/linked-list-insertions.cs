@@ -26,34 +26,34 @@ namespace Insertoins
 
             internal Node head;
 
-            public Node append(int new_data)
+            public int append(int new_data)
             {
-                // 1. Allocate the Node &
-                // 2. Put in the data
-                // 3. Set next as null 
+                // Allocate the Node &
+                // Put in the data
+                // Set next as null 
                 Node new_node = new Node(new_data);
 
-                // 4. If the Linked List is empty,
+                //  If the Linked List is empty,
                 //  then make the new node as head 
                 if (head == null)
                 {
                     head = new Node(new_data);
-                    return head;
+                    return new_data;
                 }
 
-                // 4. This new node is going to be
+                // This new node is going to be
                 // the last node, so make next of it as null 
                 new_node.next = null;
 
-                // 5. Else traverse till the last node 
+                //  Else traverse till the last node 
                 Node last = head;
                 while (last.next != null)
                     last = last.next;
 
-                // 6. Change the next of last node 
+                //  Change the next of last node 
                 last.next = new_node;
 
-                return last.next;
+                return last.value;
             }
 
             // I used 'Include' method that was implemented in previous challenge
@@ -72,14 +72,14 @@ namespace Insertoins
                 return notFound;
             }
 
-            public void insertBefore(int specifiedValue, int new_data)
+            public int insertBefore(int specifiedValue, int new_data)
             {
                 // Store the result of 'Include' in a node
                 Node nextNode = Include(specifiedValue);
 
                 // First check if the given
-                // pointer is the address of
-                // head
+                // value is in rhe head
+               
                 if (head == nextNode)
                 {
                     // Create a new node
@@ -91,6 +91,8 @@ namespace Insertoins
 
                     // Update the head pointer
                     head = n;
+
+                    return new_data;
 
                 }
 
@@ -112,13 +114,13 @@ namespace Insertoins
                     // Update previous node's next
                     p.next = m;
 
-
+                    return new_data;
                 }
             }
 
 
            
-            public void insertAfter(int specifiedValue, int new_data) {
+            public int insertAfter(int specifiedValue, int new_data) {
 
                 // Store the result of 'Include' in a node
                 Node previousNode = Include(specifiedValue);
@@ -135,10 +137,10 @@ namespace Insertoins
                 // as new_node 
                 previousNode.next = new_node;
 
-
+                return new_data;
             }
         
-
+            // To print the linked list
             public void toString()
             {
 
@@ -153,7 +155,7 @@ namespace Insertoins
                 Console.Write("NULL");
 
             }
-            static void Main(string[] args)
+            static void main(string[] args)
             {
 
                 linkedList l = new linkedList();
