@@ -9,11 +9,11 @@ namespace allCode
 {
     public class Program
     {
-        class Node
+       public class Node
         {
 
-            internal int value;
-            internal Node next;
+            public int value;
+            public Node next;
             public Node(int value)
             {
                 this.value = value;
@@ -22,19 +22,24 @@ namespace allCode
 
 
         };
-        class linkedList
+        public class linkedList
         {
 
-            internal Node head;
+            public Node head;
 
-            internal void Insert(int new_data)
+            public linkedList()
+            {
+                
+            }
+            public int Insert(int new_data)
             {
                 Node new_node = new Node(new_data);
                 new_node.next = head;
                 head = new_node;
+                return new_data;
             }
 
-            internal bool Include(int new_data)
+            public  bool Include(int new_data)
             {
                 Node current = head; // Initialize current
                 while (current != null)
@@ -51,7 +56,7 @@ namespace allCode
 
 
 
-            internal void toString()
+            public void toString()
             {
 
                 Node tmp = head;
@@ -62,7 +67,7 @@ namespace allCode
                     tmp = tmp.next;
 
                 }
-                Console.Write("NULL");
+               Console.Write("NULL");
 
             }
 
