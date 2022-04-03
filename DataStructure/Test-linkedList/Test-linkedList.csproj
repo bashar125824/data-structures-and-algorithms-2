@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
@@ -8,6 +11,8 @@
     <IsPackable>false</IsPackable>
   </PropertyGroup>
 
+<<<<<<< HEAD
+=======
 =======
 <Project Sdk="Microsoft.NET.Sdk" ToolsVersion="Current">
   <PropertyGroup>
@@ -20,6 +25,7 @@
     </UpgradeBackupLocation>
     <OldToolsVersion>2.0</OldToolsVersion>
   </PropertyGroup>
+>>>>>>> main
 >>>>>>> main
   <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.9.4" />
@@ -34,15 +40,21 @@
     </PackageReference>
   </ItemGroup>
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 
   <ItemGroup>
     <ProjectReference Include="..\DataStructure\DataStructure.csproj" />
   </ItemGroup>
 
 </Project>
+<<<<<<< HEAD
+=======
 =======
   <ItemGroup>
     <ProjectReference Include="..\DataStructure\DataStructure.csproj" />
   </ItemGroup>
 </Project>
+>>>>>>> main
 >>>>>>> main

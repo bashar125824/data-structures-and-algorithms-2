@@ -40,10 +40,7 @@ namespace Insertoins
                 if (head == null)
                 {
                     head = new Node(new_data);
-
-
                     return new_data;
-
 
                 }
 
@@ -58,7 +55,6 @@ namespace Insertoins
 
                 //  Change the next of last node 
                 last.next = new_node;
-
 
                 return last.value;
 
@@ -80,9 +76,7 @@ namespace Insertoins
                 return notFound;
             }
 
-
             public int insertBefore(int specifiedValue, int new_data)
-
 
             {
                 // Store the result of 'Include' in a node
@@ -102,7 +96,6 @@ namespace Insertoins
 
                     // Update the head pointer
                     head = n;
-
 
                     return new_data;
 
@@ -127,8 +120,6 @@ namespace Insertoins
                     // Update previous node's next
                     p.next = m;
 
-
-
                     return new_data;
 
                 }
@@ -136,9 +127,7 @@ namespace Insertoins
 
 
            
-
             public int insertAfter(int specifiedValue, int new_data) {
-
 
                 // Store the result of 'Include' in a node
                 Node previousNode = Include(specifiedValue);
@@ -154,10 +143,6 @@ namespace Insertoins
                 // make next of current
                 // as new_node 
                 previousNode.next = new_node;
-
-
-                return new_data;
-
 
                 return new_data;
 
