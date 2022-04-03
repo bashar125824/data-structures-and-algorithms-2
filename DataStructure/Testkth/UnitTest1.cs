@@ -16,7 +16,7 @@ namespace Testkth
             l.push(2);
             l.push(3);
 
-            Assert.Equal(0 , l.linkedListKth(4));
+            Assert.Equal(0 , l.kthNode(4));
 
         }
 
@@ -30,7 +30,7 @@ namespace Testkth
             l.push(2);
             l.push(3);
 
-            Assert.Equal(3, l.linkedListKth(3));
+            Assert.Equal(0, l.kthNode(3));
 
         }
 
@@ -43,7 +43,7 @@ namespace Testkth
            
             l.push(3);
 
-            Assert.NotEqual(1 , l.linkedListKth(3));
+            Assert.NotEqual(1 , l.kthNode(3));
 
         }
     }
