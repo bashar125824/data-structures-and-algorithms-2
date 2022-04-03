@@ -39,6 +39,5 @@ namespace Test
             Assert.Equal(22, l.insertAfter(89, n.value));
         }
 
-
     }
 }
