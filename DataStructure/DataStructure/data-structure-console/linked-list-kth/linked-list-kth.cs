@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Diagnostics;
+
 
 
 namespace kth_test
@@ -10,79 +12,53 @@ namespace kth_test
     public class linked_list_kth
 
     {
+        public class Node
+        {
+            public int data;
+            public Node next;
+            public Node(int d)
+            {
+                data = d;
+                next = null;
+            }
+        }
 
         public class LinkedList
         {
-            public Node head; // head of the list
+            Node head;
 
-            /* Linked List node */
-            public class Node
+            public int kthNode(int k)
             {
-                public int data;
-                public Node next;
-                public Node(int d)
+                Node current = head;
+                int count = 0; 
+                while (current != null)
                 {
-                    data = d;
-                    next = null;
-                }
-            }
-
-
-            public int linkedListKth(int k)
-            {
-                int len = 0;
-                Node temp = head;
-
-                // 1) count the number of nodes in Linked List
-                while (temp != null)
-                {
-                    temp = temp.next;
-                    len++;
+                    if (count == k)
+                        return current.data;
+                    count++;
+                    current = current.next;
                 }
 
-                // check if value of n is not more than length of
-                // the linked list
-                if (len < k)
-                    return 0;
-
-                temp = head;
-
-                // 2) get the (len-n+1)th node from the beginning
-
-                for (int i = 1; i < len - k + 1; i++)
-                    temp = temp.next;
-
-                return temp.data;
+               
+                return 0;
             }
 
-            /* Inserts a new Node at front of the list. */
             public void push(int new_data)
             {
-                /* 1 & 2: Allocate the Node &
-                        Put in the data*/
-                Node new_node = new Node(new_data);
 
-                /* 3. Make next of new Node as head */
-                new_node.next = head;
+                /* 1. alloc the Node and put data*/
+                Node new_Node = new Node(new_data);
 
-                /* 4. Move the head to point to new Node */
-                head = new_node;
+                /* 2. Make next of new Node as head */
+                new_Node.next = head;
+
+                /* 3. Move the head to point to new Node */
+                head = new_Node;
             }
 
 
-            public static void Main(String[] args)
 
-            {
-                LinkedList myList = new LinkedList();
-                myList.push(100);
-                myList.push(22);
-                myList.push(343);
-                myList.push(43);
 
-                int result = myList.linkedListKth(3);
-
-                Console.WriteLine(result);
-            }
         }
 
     }

@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> main
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
@@ -11,22 +7,6 @@
     <IsPackable>false</IsPackable>
   </PropertyGroup>
 
-<<<<<<< HEAD
-=======
-=======
-<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="Current">
-  <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>Test_linkedList</RootNamespace>
-    <IsPackable>false</IsPackable>
-    <FileUpgradeFlags>
-    </FileUpgradeFlags>
-    <UpgradeBackupLocation>
-    </UpgradeBackupLocation>
-    <OldToolsVersion>2.0</OldToolsVersion>
-  </PropertyGroup>
->>>>>>> main
->>>>>>> main
   <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.9.4" />
     <PackageReference Include="xunit" Version="2.4.1" />
@@ -39,22 +19,9 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
   </ItemGroup>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> main
 
   <ItemGroup>
     <ProjectReference Include="..\DataStructure\DataStructure.csproj" />
   </ItemGroup>
 
 </Project>
-<<<<<<< HEAD
-=======
-=======
-  <ItemGroup>
-    <ProjectReference Include="..\DataStructure\DataStructure.csproj" />
-  </ItemGroup>
-</Project>
->>>>>>> main
->>>>>>> main
