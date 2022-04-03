@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.32228.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructure", "DataStructure\DataStructure.csproj", "{38695C14-4DA9-43F3-B956-C3DD66A58F55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{DC209D87-A65A-4ACB-A4AB-C0CBB4F47FDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject1", "TestProject1\TestProject1.csproj", "{DC209D87-A65A-4ACB-A4AB-C0CBB4F47FDA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test-linkedList", "Test-linkedList\Test-linkedList.csproj", "{2F0343D2-4376-4DA1-A454-186A2A7543A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testkth", "Testkth\Testkth.csproj", "{5FFA4328-BF23-4279-A6FB-55D261C79259}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{DC209D87-A65A-4ACB-A4AB-C0CBB4F47FDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC209D87-A65A-4ACB-A4AB-C0CBB4F47FDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC209D87-A65A-4ACB-A4AB-C0CBB4F47FDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F0343D2-4376-4DA1-A454-186A2A7543A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F0343D2-4376-4DA1-A454-186A2A7543A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F0343D2-4376-4DA1-A454-186A2A7543A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F0343D2-4376-4DA1-A454-186A2A7543A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FFA4328-BF23-4279-A6FB-55D261C79259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FFA4328-BF23-4279-A6FB-55D261C79259}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FFA4328-BF23-4279-A6FB-55D261C79259}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FFA4328-BF23-4279-A6FB-55D261C79259}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

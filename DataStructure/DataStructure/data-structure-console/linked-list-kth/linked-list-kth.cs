@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataStructure.linked_list_kth
+
+namespace kth_test
 {
-    class linked_list_kth
+    public class linked_list_kth
 
     {
 
@@ -46,7 +47,7 @@ namespace DataStructure.linked_list_kth
 
                 temp = head;
 
-                // 2) get the (len-n+1)th node from the beginning
+                // 2) get the (len-k+1)th node from the beginning
                 for (int i = 1; i < len - k + 1; i++)
                     temp = temp.next;
 
@@ -67,7 +68,7 @@ namespace DataStructure.linked_list_kth
                 head = new_node;
             }
 
-            public static void Main(String[] args)
+            public static void main(String[] args)
             {
                 LinkedList myList = new LinkedList();
                 myList.push(100);
@@ -81,13 +82,7 @@ namespace DataStructure.linked_list_kth
             }
         }
 
-
-
-
-
-
-
     }
-        }
+}
     
 

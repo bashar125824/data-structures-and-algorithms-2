@@ -26,7 +26,7 @@ namespace Insertoins
 
             internal Node head;
 
-            public Node append(int new_data)
+            public int append(int new_data)
             {
                 // Allocate the Node &
                 // Put in the data
@@ -38,7 +38,7 @@ namespace Insertoins
                 if (head == null)
                 {
                     head = new Node(new_data);
-                    return head;
+                    return new_data;
                 }
 
                 // This new node is going to be
@@ -53,7 +53,7 @@ namespace Insertoins
                 //  Change the next of last node 
                 last.next = new_node;
 
-                return last.next;
+                return last.value;
             }
 
             // I used 'Include' method that was implemented in previous challenge
@@ -72,7 +72,7 @@ namespace Insertoins
                 return notFound;
             }
 
-            public void insertBefore(int specifiedValue, int new_data)
+            public int insertBefore(int specifiedValue, int new_data)
             {
                 // Store the result of 'Include' in a node
                 Node nextNode = Include(specifiedValue);
@@ -91,6 +91,8 @@ namespace Insertoins
 
                     // Update the head pointer
                     head = n;
+
+                    return new_data;
 
                 }
 
@@ -112,13 +114,13 @@ namespace Insertoins
                     // Update previous node's next
                     p.next = m;
 
-
+                    return new_data;
                 }
             }
 
 
            
-            public void insertAfter(int specifiedValue, int new_data) {
+            public int insertAfter(int specifiedValue, int new_data) {
 
                 // Store the result of 'Include' in a node
                 Node previousNode = Include(specifiedValue);
@@ -135,7 +137,7 @@ namespace Insertoins
                 // as new_node 
                 previousNode.next = new_node;
 
-
+                return new_data;
             }
         
             // To print the linked list
