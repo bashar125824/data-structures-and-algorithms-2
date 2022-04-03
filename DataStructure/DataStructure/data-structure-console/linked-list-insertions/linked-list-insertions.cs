@@ -41,7 +41,9 @@ namespace Insertoins
                 {
                     head = new Node(new_data);
 
-                    return head;
+
+                    return new_data;
+
 
                 }
 
@@ -58,7 +60,7 @@ namespace Insertoins
                 last.next = new_node;
 
 
-                return last.next;
+                return last.value;
 
             }
 
@@ -80,6 +82,7 @@ namespace Insertoins
 
 
             public int insertBefore(int specifiedValue, int new_data)
+
 
             {
                 // Store the result of 'Include' in a node
@@ -124,6 +127,8 @@ namespace Insertoins
                     // Update previous node's next
                     p.next = m;
 
+
+
                     return new_data;
 
                 }
@@ -149,6 +154,9 @@ namespace Insertoins
                 // make next of current
                 // as new_node 
                 previousNode.next = new_node;
+
+
+                return new_data;
 
 
                 return new_data;
