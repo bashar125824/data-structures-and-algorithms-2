@@ -8,4 +8,5 @@
 | Linked Lists | [Link](/DataStructure/DataStructure/data-structure-console/linked-list/) |
 | Linked Lists Insertions , Test Link  | [Link](/DataStructure/DataStructure/data-structure-console/linked-list-insertions)  , [Test-link](/DataStructure/TestProject1/UnitTest1.cs)|
 | Linked Lists Kth , Test Link| [Link](/DataStructure/DataStructure/data-structure-console/linked-list-kth) , [Test-link](/DataStructure/Testkth/)|
+| Linked List zip | [Link](/DataStructure/DataStructure/data-structure-console/linked-list-zip/)
 
