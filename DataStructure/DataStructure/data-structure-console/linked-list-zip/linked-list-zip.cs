@@ -102,7 +102,7 @@ namespace zip
 
 
 
-            static void Main(string[] args)
+            static void main(string[] args)
             {
 
                 LinkedList L = new LinkedList();
