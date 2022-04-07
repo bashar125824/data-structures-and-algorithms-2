@@ -31,6 +31,7 @@ namespace kth_test
             {
                Node h = head;
                Node n = null;
+                Node curr = head;
                while(h!=null)
                {
                   Node tmp = h.next;
@@ -38,16 +39,20 @@ namespace kth_test
                   n = h;
                   h = tmp;
                   head = n;
-                  Node curr = head;
+                  curr = head;
                 }
                   int x = 0;
                   while(curr != null)
-                  {
+                   {
                         if(x == k)
                         {
                           return curr.data;
                         }
-                  }
+
+                        x++;
+                        curr = curr.next;
+                    }
+                    return 0;
 
 
                }
