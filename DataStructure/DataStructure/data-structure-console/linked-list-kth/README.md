@@ -7,7 +7,7 @@
 ## Whiteboard Process
 
 
-![IMG](/DataStructure/DataStructure/data-structure-console/linked-list-kth/WBkth.jpg)
+![IMG](/DataStructure/DataStructure/data-structure-console/linked-list-kth/kthScr.jpg)
 
 ---
 
