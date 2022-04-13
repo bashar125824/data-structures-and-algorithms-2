@@ -146,7 +146,7 @@ namespace stack_and_queue
 
         }
 
-        static void Main(string[] args)
+        static void main(string[] args)
         {
 
     

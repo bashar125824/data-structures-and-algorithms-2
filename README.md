@@ -10,4 +10,5 @@
 | Linked Lists Kth *CC 07*| [Link](/DataStructure/DataStructure/data-structure-console/linked-list-kth) |
 | Linked List zip *CC 08*| [Link](/DataStructure/DataStructure/data-structure-console/linked-list-zip/)|
 | Stacks and Queues *CC 10*| [Link](/DataStructure/DataStructure/data-structure-console/stack-and-queue/)|
+| Stacks and Queues Pseudo *CC 11*| [Link](/DataStructure/DataStructure/data-structure-console/stack-queue-pseudo/)|
 

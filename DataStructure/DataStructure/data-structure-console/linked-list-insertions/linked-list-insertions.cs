@@ -155,7 +155,7 @@ namespace Insertoins
                 Console.Write("NULL");
 
             }
-            static void main(string[] args)
+            static void Main(string[] args)
             {
 
                 linkedList l = new linkedList();
