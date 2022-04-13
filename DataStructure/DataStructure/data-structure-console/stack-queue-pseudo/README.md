@@ -7,7 +7,7 @@
 
 ## Whiteboard Process
 
-![IMG](DataStructure/DataStructure/data-structure-console/stack-queue-pseudo/Queue_Pseudo.jpg)
+![IMG](Queue_Pseudo.jpg)
 
 ---
 
