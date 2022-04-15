@@ -7,7 +7,7 @@
 ## Whiteboard Process
 
 
-![IMG](/array-binary-search/WhiteBoard3.jpg)
+![IMG](/DataStructure/Challenges/AllChallenges/Arrays_Challenges/array-binary-search/WhiteBoard3.jpg)
 
 ---
 

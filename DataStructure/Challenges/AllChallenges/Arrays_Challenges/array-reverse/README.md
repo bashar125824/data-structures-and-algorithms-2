@@ -7,7 +7,7 @@
 ## Whiteboard Process
 
 
-![IMG](/array-reverse/WhiteBoard.jpg)
+![IMG](/DataStructure/Challenges/AllChallenges/Arrays_Challenges/array-reverse/WhiteBoard.jpg)
 
 ---
 

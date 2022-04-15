@@ -7,7 +7,7 @@
 ## Whiteboard Process
 
 
-![IMG](/array-insert-shift/WhiteBoard.jpg)
+![IMG](/DataStructure/Challenges/AllChallenges/Arrays_Challenges/array-insert-shift/UpdatedWhiteBoard.jpg)
 
 ---
 

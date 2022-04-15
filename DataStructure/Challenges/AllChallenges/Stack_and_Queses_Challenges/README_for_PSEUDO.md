@@ -7,7 +7,7 @@
 
 ## Whiteboard Process
 
-![IMG](Queue_Pseudo.jpg)
+![IMG](/DataStructure/Challenges/AllChallenges/Stack_and_Queses_Challenges/Queue_Pseudo.jpg)
 
 ---
 
