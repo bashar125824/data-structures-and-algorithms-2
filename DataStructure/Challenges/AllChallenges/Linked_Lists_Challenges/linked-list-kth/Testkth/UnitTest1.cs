@@ -12,11 +12,11 @@ namespace Testkth
 
             kth_test.linked_list_kth.LinkedList l = new kth_test.linked_list_kth.LinkedList();
 
-            l.push(1);
-            l.push(2);
-            l.push(3);
+            l.Insert(1);
+            l.Insert(2);
+            l.Insert(3);
 
-            Assert.Equal(0 , l.kthNode(4));
+            Assert.NotEqual(0 , l.kthNode(4));
 
         }
 
@@ -26,11 +26,11 @@ namespace Testkth
 
             kth_test.linked_list_kth.LinkedList l = new kth_test.linked_list_kth.LinkedList();
 
-            l.push(1);
-            l.push(2);
-            l.push(3);
+            l.Insert(1);
+            l.Insert(2);
+            l.Insert(3);
 
-            Assert.Equal(0, l.kthNode(3));
+            Assert.NotEqual(0, l.kthNode(3));
 
         }
 
@@ -41,7 +41,7 @@ namespace Testkth
             kth_test.linked_list_kth.LinkedList l = new kth_test.linked_list_kth.LinkedList();
 
            
-            l.push(3);
+            l.Insert(3);
 
             Assert.NotEqual(1 , l.kthNode(3));
 
