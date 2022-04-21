@@ -4,7 +4,7 @@
 
 ## Whiteboard Process
 
-![IMG](/DataStructure/Challenges/AllChallenges/Stack_and_Queses_Challenges/Animal_Shelter/Shelter.jpg)
+![IMG](/DataStructure/Challenges/AllChallenges/Stack_and_Queses_Challenges/Animal_Shelter/Shelter_Updated.jpg)
 
 ## Approach & Efficiency
 
