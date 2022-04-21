@@ -4,7 +4,7 @@
 
 ## Whiteboard Process
 
----
+![IMG](/DataStructure/Challenges/AllChallenges/Stack_and_Queses_Challenges/BracketsValidation/Brackets.jpg)
 
 ## Approach & Efficiency
 
