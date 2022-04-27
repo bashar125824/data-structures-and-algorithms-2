@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test_Pseudo", "Test_Pseudo\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test_Animal_Shelter", "Test_Animal_Shelter\Test_Animal_Shelter.csproj", "{4444C547-51B2-4059-B999-5D7EA741ED13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_Brackets", "Test_Brackets\Test_Brackets.csproj", "{4A60E16A-83C3-4313-A30F-D0E53B6A0F1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test_Brackets", "Test_Brackets\Test_Brackets.csproj", "{4A60E16A-83C3-4313-A30F-D0E53B6A0F1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTrees", "TestTrees\TestTrees.csproj", "{03E51514-D5DD-4017-90BA-9B9D8E4F5513}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{4A60E16A-83C3-4313-A30F-D0E53B6A0F1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A60E16A-83C3-4313-A30F-D0E53B6A0F1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A60E16A-83C3-4313-A30F-D0E53B6A0F1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03E51514-D5DD-4017-90BA-9B9D8E4F5513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03E51514-D5DD-4017-90BA-9B9D8E4F5513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03E51514-D5DD-4017-90BA-9B9D8E4F5513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03E51514-D5DD-4017-90BA-9B9D8E4F5513}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
