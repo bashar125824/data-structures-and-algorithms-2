@@ -13,5 +13,7 @@
 | Stacks and Queues Animal Shelter *CC 12* | [Link](/DataStructure/Challenges/AllChallenges/Stack_and_Queses_Challenges/Animal_Shelter/)|
 | Stacks and Queues Brackets validation *CC 13* | [Link](/DataStructure/Challenges/AllChallenges/Stack_and_Queses_Challenges/BracketsValidation/)|
 | Trees & BST *CC 15* | [Link](/DataStructure/Challenges/AllChallenges/Trees_Challenges/Trees_and_BST/)|
+| Max Tree *CC 16* | [Link](/DataStructure/Challenges/AllChallenges/Trees_Challenges/Max_Tree/)|
+
 
 
