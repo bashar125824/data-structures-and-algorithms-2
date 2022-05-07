@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestTrees", "TestTrees\Test
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestMaxTree", "TestMaxTree\TestMaxTree.csproj", "{95B84725-5FC4-4ADE-B6FF-A94E8EA4DC97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBreadth", "TestBreadth\TestBreadth.csproj", "{17CE3288-9357-489A-98BD-B27D27B193D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestBreadth", "TestBreadth\TestBreadth.csproj", "{17CE3288-9357-489A-98BD-B27D27B193D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_Fizz_Buzz", "Test_Fizz_Buzz\Test_Fizz_Buzz.csproj", "{A5D8BE76-D176-4C01-90D7-D6D353FDD39A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{17CE3288-9357-489A-98BD-B27D27B193D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17CE3288-9357-489A-98BD-B27D27B193D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17CE3288-9357-489A-98BD-B27D27B193D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5D8BE76-D176-4C01-90D7-D6D353FDD39A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5D8BE76-D176-4C01-90D7-D6D353FDD39A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5D8BE76-D176-4C01-90D7-D6D353FDD39A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5D8BE76-D176-4C01-90D7-D6D353FDD39A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

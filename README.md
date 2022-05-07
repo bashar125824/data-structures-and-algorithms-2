@@ -15,6 +15,7 @@
 | Trees & BST *CC 15* | [Link](/DataStructure/Challenges/AllChallenges/Trees_Challenges/Trees_and_BST/)|
 | Max Tree *CC 16* | [Link](/DataStructure/Challenges/AllChallenges/Trees_Challenges/Max_Tree/)|
 | Breadth First *CC 17* | [Link](/DataStructure/Challenges/AllChallenges/Trees_Challenges/Breadth_First/)|
+| FizzBuzz *CC 18* | [Link](/DataStructure/Challenges/AllChallenges/Trees_Challenges/FizzBuzz/)|
 
 
 
