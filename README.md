@@ -16,6 +16,7 @@
 | Max Tree *CC 16* | [Link](/DataStructure/Challenges/AllChallenges/Trees_Challenges/Max_Tree/)|
 | Breadth First *CC 17* | [Link](/DataStructure/Challenges/AllChallenges/Trees_Challenges/Breadth_First/)|
 | FizzBuzz *CC 18* | [Link](/DataStructure/Challenges/AllChallenges/Trees_Challenges/FizzBuzz/)|
+| Insertion Sort *CC 26* | [Link](/DataStructure/Challenges/AllChallenges/Insertion-Sort-Revision/)|
 
 
 
