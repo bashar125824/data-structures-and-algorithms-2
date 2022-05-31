@@ -18,6 +18,7 @@
 | FizzBuzz *CC 18* | [Link](/DataStructure/DataStructure/data-structure-console/Trees/tree-fizz-buzz/)|
 | Insertion Sort *CC 26* | [Link](/DataStructure/DataStructure/data-structure-console/Sort_Challenges/Insertion-Sort-Revision/)|
 | Merge Sort *CC 27* | [Link](/DataStructure/DataStructure/data-structure-console/Sort_Challenges/Merge-Sort/)|
+| Quick Sort *CC 28* | [Link](/DataStructure/DataStructure/data-structure-console/Sort_Challenges/Quick-Sort/)|
 
 
 
