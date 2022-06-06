@@ -19,6 +19,7 @@
 | Insertion Sort *CC 26* | [Link](/DataStructure/DataStructure/data-structure-console/Sort_Challenges/Insertion-Sort-Revision/)|
 | Merge Sort *CC 27* | [Link](/DataStructure/DataStructure/data-structure-console/Sort_Challenges/Merge-Sort/)|
 | Quick Sort *CC 28* | [Link](/DataStructure/DataStructure/data-structure-console/Sort_Challenges/Quick-Sort/)|
+| Hash Table *CC 30* | [Link](/DataStructure/DataStructure/data-structure-console/Hash_Table_Challenges/HashTable/)|
 
 
 
