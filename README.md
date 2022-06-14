@@ -19,7 +19,8 @@
 | Insertion Sort *CC 26* | [Link](/DataStructure/DataStructure/data-structure-console/Sort_Challenges/Insertion-Sort-Revision/)|
 | Merge Sort *CC 27* | [Link](/DataStructure/DataStructure/data-structure-console/Sort_Challenges/Merge-Sort/)|
 | Quick Sort *CC 28* | [Link](/DataStructure/DataStructure/data-structure-console/Sort_Challenges/Quick-Sort/)|
-| Hash Table *CC 30* | [Link](/DataStructure/DataStructure/data-structure-console/Hash_Table_Challenges/HashTable/)|
+| Hash Table *CC 30* | [Link](/DataStructure/DataStructure/data-structure-console/Hash_Table_Challenges/Hash_Table/)|
+| Hash-map Repeated Word *CC 31* | [Link](/DataStructure/DataStructure/data-structure-console/Hash_Table_Challenges/hashmap-repeated-word/)|
 
 
 

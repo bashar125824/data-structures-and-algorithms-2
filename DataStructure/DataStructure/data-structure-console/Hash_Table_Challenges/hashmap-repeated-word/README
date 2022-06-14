@@ -1,0 +1,12 @@
+# Challenge Summary
+
+***In this challenge , I suppose to write a function that return the first repeated word in a given text .***
+
+## Whiteboard Process
+
+![IMG](/DataStructure/DataStructure/data-structure-console/Hash_Table_Challenges/hashmap-repeated-word/WBRepWord.jpg)
+
+## Approach & Efficiency
+
+***Space Complexity : O(1)***
+***Time Complexity : O(n)***
