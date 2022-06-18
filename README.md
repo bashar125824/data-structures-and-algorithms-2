@@ -21,6 +21,7 @@
 | Quick Sort *CC 28* | [Link](/DataStructure/DataStructure/data-structure-console/Sort_Challenges/Quick-Sort/)|
 | Hash Table *CC 30* | [Link](/DataStructure/DataStructure/data-structure-console/Hash_Table_Challenges/Hash_Table/)|
 | Hash-map Repeated Word *CC 31* | [Link](/DataStructure/DataStructure/data-structure-console/Hash_Table_Challenges/hashmap-repeated-word/)|
+| Hash-map Left Join *CC 33* | [Link](/DataStructure/DataStructure/data-structure-console/Hash_Table_Challenges/HashTable_Left_Join/)
 
 
 
