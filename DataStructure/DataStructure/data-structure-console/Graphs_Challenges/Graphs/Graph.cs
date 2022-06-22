@@ -6,77 +6,122 @@ using System.Threading.Tasks;
 
 namespace Graphs
 {
-    public class Node
+    public class Vertex
     {
-        public int Value;
+        public int value { get; set; }
+        public List<Edge> edges;
 
-        public Dictionary<int, int> Neighbors;
-
-        public Node(int data)
+        public Vertex(int value)
         {
-            this.Value = data;
-            this.Neighbors = new Dictionary<int, int>();
+            this.value = value;
+            this.edges = new List<Edge>();
         }
-
-        public void AddEdge(int value, int weight)
+        public void addEdge(Vertex endVertex, int weight)
         {
-           
-            this.Neighbors.Add(value, weight);
-        }
-
-        public Dictionary<int, int> GetAdjacentVertices()
-        {
-            return this.Neighbors;
+            this.edges.Add(new Edge(this, endVertex, weight));
         }
     }
-        public class Graph
-        {
-        public  HashSet<Node> vertecies;
-        public  bool Directed;
+    public class Edge
+    {
+        private Vertex start;
+        private Vertex end;
+        private int weight;
 
-        public Graph(bool directed = false)
+        public Edge(Vertex start, Vertex end, int Weight)
         {
-            this.Directed = directed;
-            this.vertecies = new HashSet<Node>();
+            this.start = start;
+            this.end = end;
+            this.weight = Weight;
         }
 
-        public Node AddNode(int value)
+        public Vertex getStart()
         {
-            Node node = new Node(value);
-            vertecies.Add(node);
-            return node;
+            return this.start;
         }
 
-        public void AddEdge(int firstValue, int secondValue, int weight)
+        public Vertex getEnd()
         {
-            
-                this.GetNode(firstValue).AddEdge(secondValue, weight);
-
-                if (!this.Directed) 
-                {
-                    this.GetNode(secondValue).AddEdge(firstValue, weight); 
-                }
-           
+            return this.end;
         }
 
-        public HashSet<Node> GetNodes()
+        public int getWeight()
         {
-            return this.vertecies;
+            return this.weight;
         }
-
-        private Node GetNode(int value)
+        public class Node
         {
-            return vertecies.Where(x => x.Value == value).Select(x => x).FirstOrDefault(); 
-        }
+            public int Value;
 
-        public Dictionary<int, int> GetNeighbors(int value)
+            public Dictionary<int, int> Neighbors;
+
+            public Node(int data)
+            {
+                this.Value = data;
+                this.Neighbors = new Dictionary<int, int>();
+            }
+
+            public void AddEdge(int value, int weight)
+            {
+
+                this.Neighbors.Add(value, weight);
+            }
+
+            public Dictionary<int, int> GetAdjacentVertices()
+            {
+                return this.Neighbors;
+            }
+        }
+    }
+    public class Graph
+    {
+        private List<Vertex> vertices;
+        private bool Weighted;
+        private bool Directed;
+        public Graph(bool inputIsWeighted, bool inputIsDirected)
         {
-            return this.GetNode(value).GetAdjacentVertices();
+            this.vertices = new List<Vertex>();
+            this.Weighted = inputIsWeighted;
+            this.Directed = inputIsDirected;
         }
+        public Vertex AddNode(int val)
+        {
+            Vertex newvertex = new Vertex(val);
+            vertices.Add(newvertex);
+            return newvertex;
+        }
+        public void AddEdge(Vertex vertex1, Vertex vertex2, int weight)
+        {
+            if (!this.Weighted)
+            {
+                weight = (int)(int?)null;
+            }
+            vertex1.addEdge(vertex2, weight);
+            if (!this.Directed)
+            {
+                vertex2.addEdge(vertex1, weight);
+            }
+        }
+        public List<Vertex> GetNodes()
+        {
+            if (vertices.Count == 0)
+            {
+                return null;
+            }
+            else
+            {
+                return vertices;
 
+            }
+        }
+        public List<Edge> GetNeighbors(Vertex node)
+        {
+            return vertices.Find(v => v.value == node.value).edges;
+        }
         public int Size()
         {
-            return this.vertecies.Count;
+            return vertices.Count;
         }
-        }
+
+    }
 }
+
