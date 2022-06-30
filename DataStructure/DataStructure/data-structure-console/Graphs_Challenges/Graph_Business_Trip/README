@@ -1,0 +1,12 @@
+# Challenge Summary
+
+***In this challenge , I suppose to write a function that determine if a trip between two cities is possublee or not using graphs***
+
+## Whiteboard Process
+
+![IMG](/DataStructure/DataStructure/data-structure-console/Graphs_Challenges/Graph_Business_Trip/WBTC.jpg)
+
+## Approach & Efficiency
+
+***Time Complexity : O(N^2)***
+***Space Complexity : O(1)***

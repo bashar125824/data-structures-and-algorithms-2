@@ -23,6 +23,7 @@
 | Hash-map Repeated Word *CC 31* | [Link](/DataStructure/DataStructure/data-structure-console/Hash_Table_Challenges/hashmap-repeated-word/)|
 | Hash-map Left Join *CC 33* | [Link](/DataStructure/DataStructure/data-structure-console/Hash_Table_Challenges/HashTable_Left_Join/)
 | Graphs Implementation *CC 35* | [Link](/DataStructure/DataStructure/data-structure-console/Graphs_Challenges/Graphs/)
+| Graph Business Trip *CC 37* | [Link](/DataStructure/DataStructure/data-structure-console/Graphs_Challenges/Graph_Business_Trip/)
 
 
 
